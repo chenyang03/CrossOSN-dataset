@@ -11,17 +11,17 @@ This dataset covers 61.39 million Foursquare users, including all their profile 
  
 * profile.gz: the profile information and activity statistics of all Foursquare users.
 
-Each line in profile.txt is an entry of user's information, including her demographic information fields, and the statistics of her activities. 
+Each line in profile.txt is an entry of user's information, including her demographic information fields, and the statistics of her activities. For each line, the format is:
 
-The format of the ***.txt file is 
-
-UID followings followers tips  checkins  photos  gender  has_lastname  bio_length has_photo superuser_info fb tw location
+[Anonymized UID,  number of followings,  number of followers,  number of tips,  number of checkins, gender  (m: male, f: female,  -: none), has_lastname (1: yes, 0: no), has_bio (1:yes, 0: no), has_photo (1: yes, 0: no), is_superuser  (1: yes, 0: no), linked to Facebook  (1: yes, 0: no), linked to Twitter (1: yes, 0: no), is_early_user (1:early user, 0: non-early user), location]
 
 For example, an entry
 
-5956 8 51 20 4 m y 0 0 0 1472822320 jakub_cer Shanghai 
+[358, 12, 14, 1, 185, "m", 1, 0, 1, 0, 1, 0, 1, "New York, NY"]
 
-shows that the user with a Foursquare ID as 5965, has 8 followings and  5 followers, has left 1 tips and conducted 20 check-ins, and published 4 photos. He is a male user, and has filled his lastname into the information field. He writes no bio, no profile photo, and not a superuser of Foursquare. He has linked his Facebook and Twitter accounts, with the user IDs on these two websites are 1472822320  and jakub_cer respectively. He shows his location as Shanghai on Foursquare. 
+shows that the user has an anonymized ID of 358, has 12 followings and 14 followers, has left 1 tips and conducted 185 check-ins. He is a male user, and has filled his lastname into the information field. He has no filled in the biography field.
+He has uploaded a photo photo. He is not a superuser of Foursquare. He has linked Facebook and Twitter accounts. He is an early user. Finally, his location is New York, NY.
+
 
 * graph.gz: the follower and following list of all Foursquare users 
 
@@ -29,8 +29,9 @@ shows that the user with a Foursquare ID as 5965, has 8 followings and  5 follow
 ```
 @inproceedings{Chen_CrossOSN_SNAKDD14,
 author={Yang Chen and Chenfan Zhuang and Qiang Cao and Pan Hui},
-title={ Understanding Cross-site Linking in Online Social Networks},
+title={{Understanding Cross-site Linking in Online Social Networks}},
 booktitle={Proc. of the 8th ACM Workshop on Social Network Mining and Analysis (SNAKDD'14)},
 year={2014},
 }
+
 ```
