@@ -9,7 +9,7 @@ This dataset covers 61.39 million Foursquare users, including all their profile 
 
 ## Files
  
-* profile.gz: the profile information and activity statistics of all Foursquare users.
+* [profile.gz](https://drive.google.com/open?id=1blb5SLM9kL8U_YfDZsBDW-FwZrYfelRl): the profile information and activity statistics of all Foursquare users.
 
 Each line in profile.txt is an entry of user's information, including her demographic information fields, and the statistics of her activities. For each line, the format is:
 
@@ -23,7 +23,7 @@ shows that the user has an anonymized ID of 358, has 12 followings and 14 follow
 He has uploaded a photo photo. He is not a superuser of Foursquare. He has linked Facebook and Twitter accounts. He is an early user. Finally, his location is New York, NY.
 
 
-* graph.gz: the follower and following list of all Foursquare users 
+* [graph.gz](https://drive.google.com/open?id=1N8nd3_vzIGR89XWprJ8jovB4VprCtMKl): the follower and following list of all Foursquare users 
 
 ## BibTex Entry
 ```
