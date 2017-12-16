@@ -23,9 +23,9 @@ shows that the user has an anonymized ID of 358, has 12 followings and 14 follow
 He has uploaded a photo photo. He is not a superuser of Foursquare. He has linked Facebook and Twitter accounts. He is an early user. Finally, his location is New York, NY.
 
 
-* [graph.tar.gz](https://drive.google.com/open?id=1N8nd3_vzIGR89XWprJ8jovB4VprCtMKl): the follower lists of all Foursquare users 
+* [graph.tar.gz](https://drive.google.com/open?id=1N8nd3_vzIGR89XWprJ8jovB4VprCtMKl): the following lists of all Foursquare users 
 
-Each line in ``Foursquare_Graph.txt``, extracted from graph.tar.gz starts with an anonymized user ID and the number of her followers, then followed by a list of anonymized IDs of her followers.
+Each line in ``Foursquare_Graph.txt``, extracted from graph.tar.gz starts with an anonymized user ID and the number of her followings, then followed by a list of anonymized IDs of her followings.
 
 For example:
 
