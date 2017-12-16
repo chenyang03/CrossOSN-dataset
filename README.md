@@ -30,6 +30,7 @@ Each line in ``Foursquare_Graph.txt``, extracted from graph.tar.gz starts with a
 For example:
 
 In a line 58635970 5 46399477 40772246 44399946 53020431 14731777
+
 58635970 is the anonymized user ID and 5 is the number of her followers. 46399477, 40772246, 44399946, 53020431, 14731777 are the anonymized IDs of her followers.
 
 
