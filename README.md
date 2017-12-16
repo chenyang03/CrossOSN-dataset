@@ -25,8 +25,10 @@ He has uploaded a photo photo. He is not a superuser of Foursquare. He has linke
 
 * [graph.tar.gz](https://drive.google.com/open?id=1N8nd3_vzIGR89XWprJ8jovB4VprCtMKl): the follower lists of all Foursquare users 
 
-Each line in ``Foursquare_Graph.txt``, extracted from graph.tar.gz starts with an anonymized user ID and the number of her followers, then followed by a list of anonymized IDs of her followerss.
+Each line in ``Foursquare_Graph.txt``, extracted from graph.tar.gz starts with an anonymized user ID and the number of her followers, then followed by a list of anonymized IDs of her followers.
+
 For example:
+
 In a line 58635970 5 46399477 40772246 44399946 53020431 14731777
 58635970 is the anonymized user ID and 5 is the number of her followers. 46399477, 40772246, 44399946, 53020431, 14731777 are the anonymized IDs of her followers.
 
