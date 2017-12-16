@@ -9,9 +9,9 @@ This dataset covers 61.39 million Foursquare users, including all their profile 
 
 ## Files
  
-* [profile.gz](https://drive.google.com/open?id=1blb5SLM9kL8U_YfDZsBDW-FwZrYfelRl): the profile information and activity statistics of all Foursquare users.
+* [profile.tar.gz](https://drive.google.com/open?id=1blb5SLM9kL8U_YfDZsBDW-FwZrYfelRl): the profile information and activity statistics of all Foursquare users.
 
-Each line in profile.txt is an entry of user's information, including her demographic information fields, and the statistics of her activities. For each line, the format is:
+Each line in ``profile.txt`` is an entry of user's information, including her demographic information fields, and the statistics of her activities. For each line, the format is:
 
 [Anonymized UID,  number of followings,  number of followers,  number of tips,  number of checkins, gender  (m: male, f: female,  -: none), has_lastname (1: yes, 0: no), has_bio (1:yes, 0: no), has_photo (1: yes, 0: no), is_superuser  (1: yes, 0: no), linked to Facebook  (1: yes, 0: no), linked to Twitter (1: yes, 0: no), is_early_user (1:early user, 0: non-early user), location]
 
@@ -23,7 +23,13 @@ shows that the user has an anonymized ID of 358, has 12 followings and 14 follow
 He has uploaded a photo photo. He is not a superuser of Foursquare. He has linked Facebook and Twitter accounts. He is an early user. Finally, his location is New York, NY.
 
 
-* [graph.gz](https://drive.google.com/open?id=1N8nd3_vzIGR89XWprJ8jovB4VprCtMKl): the follower and following list of all Foursquare users 
+* [graph.tar.gz](https://drive.google.com/open?id=1N8nd3_vzIGR89XWprJ8jovB4VprCtMKl): the follower lists of all Foursquare users 
+
+Each line in ``Foursquare_Graph.txt``, extracted from graph.tar.gz starts with an anonymized user ID and the number of her followers, then followed by a list of anonymized IDs of her followerss.
+For example:
+In a line 58635970 5 46399477 40772246 44399946 53020431 14731777
+58635970 is the anonymized user ID and 5 is the number of her followers. 46399477, 40772246, 44399946, 53020431, 14731777 are the anonymized IDs of her followers.
+
 
 ## BibTex Entry
 ```
