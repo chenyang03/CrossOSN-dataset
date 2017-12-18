@@ -35,11 +35,11 @@ In a line 58635970 5 46399477 40772246 44399946 53020431 14731777
 
 ## BibTex Entry
 ```
-@inproceedings{Chen_CrossOSN_SNAKDD14,
-author={Yang Chen and Chenfan Zhuang and Qiang Cao and Pan Hui},
+@inproceedings{Gong_CrossOSN17,
+author={Qingyuan Gong and Yang Chen and Jiyao Hu and Qiang Cao and Pan Hui and Xin Wang},
 title={{Understanding Cross-site Linking in Online Social Networks}},
-booktitle={Proc. of the 8th ACM Workshop on Social Network Mining and Analysis (SNAKDD'14)},
-year={2014},
+booktitle={Technical Report, School of Computer Science, Fudan University},
+year={2017},
 }
 
 ```
