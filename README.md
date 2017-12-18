@@ -11,7 +11,7 @@ This dataset covers 61.39 million Foursquare users, including all their profile 
  
 * [profile.tar.gz](https://drive.google.com/open?id=1blb5SLM9kL8U_YfDZsBDW-FwZrYfelRl): the profile information and activity statistics of all Foursquare users.
 
-Each line in ``profile.txt`` is an entry of user's information, including her demographic information fields, and the statistics of her activities. For each line, the format is:
+Each line in ``Foursquare_profile.txt`` is an entry of user's information, including her demographic information fields, and the statistics of her activities. For each line, the format is:
 
 [Anonymized UID,  number of followings,  number of followers,  number of tips,  number of checkins, gender  (m: male, f: female,  -: none), has_lastname (1: yes, 0: no), has_bio (1:yes, 0: no), has_photo (1: yes, 0: no), is_superuser  (1: yes, 0: no), linked to Facebook  (1: yes, 0: no), linked to Twitter (1: yes, 0: no), is_early_user (1:early user, 0: non-early user), location]
 
