@@ -19,8 +19,7 @@ For example, an entry
 
 [358, 12, 14, 1, 185, "m", 1, 0, 1, 0, 1, 1, 1, "New York, NY"]
 
-shows that the user has an anonymized ID of 358, has 12 followings and 14 followers, has left 1 tips and conducted 185 check-ins. He is a male user, and has filled his lastname into the information field. He has no filled in the biography field.
-He has uploaded a photo photo. He is not a superuser of Foursquare. He has linked Facebook and Twitter accounts. He is an early user. Finally, his location is New York, NY.
+shows that the user has an anonymized ID of 358, has 12 followings and 14 followers, has left 1 tips and conducted 185 check-ins. He is a male user, and has filled his lastname into the information field. He has not filled in the biography field. He has uploaded a photo. He is not a superuser of Foursquare. He has linked to Facebook and Twitter accounts. He is an early user. Finally, his location is New York, NY.
 
 
 * [graph.tar.gz](https://drive.google.com/open?id=1N8nd3_vzIGR89XWprJ8jovB4VprCtMKl): the following lists of all Foursquare users 
