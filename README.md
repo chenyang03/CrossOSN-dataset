@@ -22,24 +22,27 @@ For example, an entry
 shows that the user has an anonymized ID of 358, has 12 followings and 14 followers, has left 1 tips and conducted 185 check-ins. He is a male user, and has filled his lastname into the information field. He has not filled in the biography field. He has uploaded a photo. He is not a superuser of Foursquare. He has linked to Facebook and Twitter accounts. He is an early user. Finally, his location is New York, NY.
 
 
-* [graph.tar.gz](https://drive.google.com/open?id=1N8nd3_vzIGR89XWprJ8jovB4VprCtMKl): the following lists of all Foursquare users 
+* [Foursquare_Graph.tar.gz](https://www.dropbox.com/s/xusf3knnqkqs9zk/Foursquare_Graph.tar.gz?dl=0): the social network of all Foursquare users 
 
-Each line in ``Foursquare_Graph.txt``, extracted from graph.tar.gz starts with an anonymized user ID and the number of her followings, then followed by a list of anonymized IDs of her followings.
+There are two files in ``Foursquare_Graph.tar.gz``. One is ``nodes.csv``, the other is ``edges.csv``.
+
+Each line of ``nodes.csv`` represents an anonymized user ID of a Foursquare user.
+
+Each line in ``edges.csv`` represents a directed edge of the Foursquare network.
 
 For example:
 
-In a line 58635970 5 46399477 40772246 44399946 53020431 14731777
+In a line 23,24 
 
-58635970 is the anonymized user ID and 5 is the number of her followers. 46399477, 40772246, 44399946, 53020431, 14731777 are the anonymized IDs of her followers.
-
+We find that user 23 follows user 24. 23 and 24 are the anonymized ID of the two users.
 
 ## BibTex Entry
 ```
-@inproceedings{Gong_CrossOSN17,
+@inproceedings{Gong_CrossOSN18,
 author={Qingyuan Gong and Yang Chen and Jiyao Hu and Qiang Cao and Pan Hui and Xin Wang},
 title={{Understanding Cross-site Linking in Online Social Networks}},
 booktitle={Technical Report, School of Computer Science, Fudan University},
-year={2017},
+year={2018},
 }
 
 ```
