@@ -22,7 +22,7 @@ For example, an entry
 shows that the user has an anonymized ID of 358, has 12 followings and 14 followers, has left 1 tips and conducted 185 check-ins. He is a male user, and has filled his lastname into the information field. He has not filled in the biography field. He has uploaded a photo. He is not a superuser of Foursquare. He has linked to Facebook and Twitter accounts. He is an early user. Finally, his location is New York, NY.
 
 
-* [Foursquare_Graph.tar.gz](https://www.dropbox.com/s/xusf3knnqkqs9zk/Foursquare_Graph.tar.gz?dl=0): the social network of all Foursquare users 
+* [Foursquare_Graph.tar.gz](https://www.dropbox.com/s/xusf3knnqkqs9zk/Foursquare_Graph.tar.gz?dl=0): the social graph of all Foursquare users 
 
 There are two files in ``Foursquare_Graph.tar.gz``. One is ``nodes.csv``, the other is ``edges.csv``.
 
