@@ -34,7 +34,7 @@ For example, in a line
 
 23,24 
 
-We can conclude that user 23 follows user 24. 23 and 24 are the anonymized ID of the two users.
+We can conclude that user 23 follows user 24. 23 and 24 are the anonymized IDs of the two users.
 
 ## BibTex Entry
 ```
