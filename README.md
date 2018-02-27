@@ -5,7 +5,7 @@ Understanding Cross-site Linking in Online Social Networks (full citation below)
 Licensed under [Creative Commons Attribution Share Alike 4.0](http://choosealicense.com/licenses/cc-by-sa-4.0/).
 
 ## Description
-This dataset covers 61.39 million Foursquare users, including all their profile information fields shown on their Foursquare homepage, the statistical counts of their activities, and the lists of their followers and followings.
+This dataset covers 61.39 million Foursquare users, including all their profile information fields shown on their homepage, the statistical counts of their activities, and the social graph.
 
 ## Files
  
