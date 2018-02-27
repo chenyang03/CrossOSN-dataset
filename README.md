@@ -30,11 +30,11 @@ Each line of ``nodes.csv`` represents an anonymized user ID of a Foursquare user
 
 Each line in ``edges.csv`` represents a directed edge of the Foursquare network.
 
-For example:
+For example, in a line 
 
-In a line 23,24 
+23,24 
 
-We find that user 23 follows user 24. 23 and 24 are the anonymized ID of the two users.
+We can conclude that user 23 follows user 24. 23 and 24 are the anonymized ID of the two users.
 
 ## BibTex Entry
 ```
