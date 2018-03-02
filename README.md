@@ -24,9 +24,9 @@ shows that the user has an anonymized ID of 358, has 12 followings and 14 follow
 
 * [Foursquare_Graph.tar.gz](https://www.dropbox.com/s/xusf3knnqkqs9zk/Foursquare_Graph.tar.gz?dl=0): the social graph of all Foursquare users 
 
-There are two files in ``Foursquare_Graph.tar.gz``. One is ``nodes.csv``, the other is ``edges.csv``.
+There are two files in ``Foursquare_Graph.tar.gz``. One is ``node.csv``, the other is ``edges.csv``.
 
-Each line of ``nodes.csv`` represents an anonymized user ID of a Foursquare user.
+Each line of ``node.csv`` represents an anonymized user ID of a Foursquare user.
 
 Each line in ``edges.csv`` represents a directed edge of the Foursquare network.
 
