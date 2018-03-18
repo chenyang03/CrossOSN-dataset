@@ -1,6 +1,8 @@
 # An anonymized dataset of 60+ million Foursquare users with a focus on cross-site linking
 
-Understanding Cross-site Linking in Online Social Networks (full citation below)
+**Publication:**
+Qingyuan Gong, Yang Chen, Jiyao Hu, Qiang Cao, Pan Hui, Xin Wang. Understanding Cross-site Linking in Online Social Networks.  To appear: ACM Transactions on the Web (TWEB). 
+(full citation below)
 
 Licensed under [Creative Commons Attribution Share Alike 4.0](http://choosealicense.com/licenses/cc-by-sa-4.0/).
 
