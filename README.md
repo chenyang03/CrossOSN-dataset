@@ -45,6 +45,9 @@ author={Qingyuan Gong and Yang Chen and Jiyao Hu and Qiang Cao and Pan Hui and X
 title={{Understanding Cross-site Linking in Online Social Networks}},
 booktitle={ACM Transactions on the Web},
 year={2018},
+volume = {12},
+number = {4},
+pages = {25:1--25:29},
 }
 
 ```
