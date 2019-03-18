@@ -43,7 +43,7 @@ We can conclude that user 23 follows user 24. 23 and 24 are the anonymized IDs o
 @article{Gong_CrossOSN18,
 author={Qingyuan Gong and Yang Chen and Jiyao Hu and Qiang Cao and Pan Hui and Xin Wang},
 title={{Understanding Cross-site Linking in Online Social Networks}},
-booktitle={ACM Transactions on the Web},
+journal={ACM Transactions on the Web},
 year={2018},
 volume = {12},
 number = {4},
